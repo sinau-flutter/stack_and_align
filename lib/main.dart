@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
                       Flexible(
                         flex: 1,
                         child: Container(
-                          color: Colors.black12,
+                          color: Colors.amber,
                         ),
                       ),
                       Flexible(
@@ -46,13 +46,81 @@ class MyApp extends StatelessWidget {
                       Flexible(
                         flex: 1,
                         child: Container(
-                          color: Colors.black,
+                          color: Colors.amber,
                         ),
                       )
                     ],
                   ),
                 )
               ],
+            ),
+            ListView(
+              children: <Widget>[
+                Column(
+                  children: <Widget>[
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Text(
+                        'Ini Text Yang Dibagian Tengah',
+                        style: TextStyle(fontSize: 30),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Text(
+                        'Ini Text Yang Dibagian Tengah',
+                        style: TextStyle(fontSize: 30),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Text(
+                        'Ini Text Yang Dibagian Tengah',
+                        style: TextStyle(fontSize: 30),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Text(
+                        'Ini Text Yang Dibagian Tengah',
+                        style: TextStyle(fontSize: 30),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Text(
+                        'Ini Text Yang Dibagian Tengah',
+                        style: TextStyle(fontSize: 30),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Text(
+                        'Ini Text Yang Dibagian Tengah',
+                        style: TextStyle(fontSize: 30),
+                      ),
+                    ),
+                    Container(
+                      margin: EdgeInsets.all(15),
+                      child: Text(
+                        'Ini Text Yang Dibagian Tengah',
+                        style: TextStyle(fontSize: 30),
+                      ),
+                    )
+                  ],
+                )
+              ],
+            ),
+            Align(
+              alignment: Alignment(0, 0.8),
+              child: RaisedButton(
+                child: Text(
+                  'MyButton',
+                  style: TextStyle(color: Colors.white),
+                ),
+                onPressed: () {},
+                color: Colors.indigo,
+              ),
             )
           ],
         ),
